@@ -1,16 +1,12 @@
 import 'package:jaspr_bulma/jaspr_bulma.dart';
-import 'package:test/test.dart';
+import 'package:jaspr_test/jaspr_test.dart';
 
 void main() {
-  group('A group of tests', () {
-    final awesome = Awesome();
+  group('navbar', () {
+    testComponents('should render navbarbrand', (tester) async {
+      tester.pumpComponent(NavbarBrand(children: []));
 
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      expect(find.tag('div'), findsOneComponent);
     });
   });
 }

@@ -1,6 +1,5 @@
 import 'package:jaspr/jaspr.dart';
-import 'package:zeit/components/bulma/navbar_brand.dart';
-import 'package:zeit/components/bulma/navbar_menu.dart';
+import 'package:jaspr_bulma/jaspr_bulma.dart';
 
 class NavBar extends StatelessComponent {
   const NavBar({this.brand, this.menu, super.key});

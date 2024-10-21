@@ -10,4 +10,3 @@ class NavbarBrand extends StatelessComponent {
     yield div(classes: 'navbar-brand', children);
   }
 }
-
