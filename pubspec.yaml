@@ -1,0 +1,19 @@
+name: jaspr_bulma
+description: jaspr components implementation for the bulma css framework
+version: 0.0.1
+repository: https://github.com/rubiktubik/jaspr_bulma
+
+environment:
+  sdk: ^3.5.1
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
+
+topics:
+  - jaspr
+  - web
